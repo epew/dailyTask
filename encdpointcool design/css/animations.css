@@ -1,0 +1,14 @@
+.transform{
+	opacity:0;
+    transform:scale(0);
+    /*transition: size 150ms ease-out;*/
+}
+.content_three{
+
+opacity:1.0;
+    transform:scale(1.0);
+    /*transition: size 150ms ease-out;*/
+    transition: opacity(linear,600ms)
+                transform(cubic-out,600ms);
+
+}
