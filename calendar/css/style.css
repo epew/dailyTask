@@ -1,0 +1,39 @@
+.calendar-container {
+  position: absolute;
+  border: 1dip solid #592C5F;
+  border-radius: 7dip;
+  width: 500dip;
+  height: 500dip; }
+  .calendar-container .header {
+    height: 74dip;
+    background-color: #592C5F;
+    border-bottom: 1dip solid #592C5F;
+    border-radius: 7dip;
+    border-bottom-left-radius: 0dip;
+    border-bottom-right-radius: 0dip; }
+    .calendar-container .header img {
+      position: absolute;
+      left: 35%;
+      margin: 10dip;
+      top: 2dip; }
+    .calendar-container .header .close {
+      width: 24dip;
+      height: 22dip; }
+    .calendar-container .header .close:hover {
+      cursor: pointer; }
+  .calendar-container .body .day-pick-container caption {
+    width: 500dip; }
+    .calendar-container .body .day-pick-container caption .month {
+      display: inline-block; }
+    .calendar-container .body .day-pick-container caption .year {
+      display: inline-block; }
+    .calendar-container .body .day-pick-container caption .nav {
+      display: inline-block; }
+    .calendar-container .body .day-pick-container caption .prev:hover {
+      cursor: pointer; }
+    .calendar-container .body .day-pick-container caption .next:hover {
+      cursor: pointer; }
+  .calendar-container .body .day-pick-container table .weekday {
+    color: #A87CB7; }
+
+/*# sourceMappingURL=style.css.map */
