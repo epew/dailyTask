@@ -1,0 +1,14 @@
+/*imports*/
+
+@import '_variables';
+@import '_maincontainer';
+
+*[hidden]{
+    display:none;
+}
+
+html{
+	background:transparent;
+	overflow:hidden;
+}
+

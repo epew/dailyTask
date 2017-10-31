@@ -1,0 +1,40 @@
+include "timeline.tis";
+
+
+
+$(.header .button).on("click",function(){
+  // $(.transform).style#display = "block";
+   $(.transform).@.addClass("content_three");
+
+});
+
+$(.transform .close).on("click", function(){  
+  $(.transform).@.removeClass("content_three");
+});
+
+$(.menu_icon).on("click",function(){
+  var elements = $(.elements);
+
+    if(elements.@.hasClass("show_menu_item")){
+      elements.@.removeClass("show_menu_item");
+    }else{
+      elements.@.addClass("show_menu_item");
+    }
+
+  // easeinmenuitems();
+   
+
+  
+});
+
+function easeinmenuitems(){
+    // var box = self#box;
+    // var src = self#src;
+
+    // self#run << event click() {
+    //   box.eval(src.value);
+    // }
+    // self#clear << event click() {
+    //   for(var el in box) el.style.clear();
+    // }
+}
